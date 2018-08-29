@@ -15,7 +15,6 @@ int Div(int a,int b)
 	while(a%b!=0)
 	{
 		b=a%b;
-		a=b;
 		Swap(a,b);
 	}
 	return b;
@@ -23,13 +22,13 @@ int Div(int a,int b)
 int main()
 {
 	int a,b;
-	cout<<"ÊäÈë a\n";
+	cout<<"è¾“å…¥ a\n";
 	cin>>a;
-	cout<<"a ÊÇ "<<a<<'\n';
-	cout<<"ÊäÈë b\n";
+	cout<<"a æ˜¯ "<<a<<'\n';
+	cout<<"è¾“å…¥ b\n";
 	cin>>b;
-	cout<<"b ÊÇ "<<b<<'\n';
+	cout<<"b æ˜¯ "<<b<<'\n';
 	int Div(int a,int b);
-	cout<<"×î´ó¹«Ô¼ÊıÎª"<<Div(a,b)<<'\n';
+	cout<<"æœ€å¤§å…¬çº¦æ•°ä¸º"<<Div(a,b)<<'\n';
 	return 0;
 }
